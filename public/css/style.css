@@ -6,9 +6,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 html,body{
 margin:0;
 padding:0;
-font-family: 'Open Sans', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
-background-size: cover;
+background-color: #FADED5;
+font-family: 'Arial', sans-serif;
 height: 100%;
 width: 100%;
 }
@@ -40,8 +39,8 @@ float: left;
 
 
 h1{
-font-family: 'Open Sans', sans-serif;
-color: #fff;
+font-family: 'Arial', sans-serif;
+color: #000;
 text-align: center;
 font-size: 50px;
 font-weight: 300;
@@ -82,7 +81,7 @@ color: #ffffff;
 
 .information p{
 font-size: 16px;
-color: #ffffff;
+color: #000;
 display: block;
 }
 
@@ -93,14 +92,11 @@ display: block;
 }
 
 .field{
-background: url(../images/field.png) repeat;
 width: 448px;
--webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
 border: none;
-font-style: italic;
-font-family: 'Lato', sans-serif;
+font-family: 'Arial', sans-serif;
 font-size: 16px;
-color: #ffffff;
+color: #000;
 float: left;
 padding: 15px;
 margin-bottom: 15px;
