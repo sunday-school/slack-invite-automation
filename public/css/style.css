@@ -15,28 +15,10 @@ html,body{
 h1, h2 {
 	font-family: 'Arial', sans-serif;
 	color: #000;
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 	font-weight: 300;
 	margin: 0 0 10px 0;
-}
-
-.information{
-width: 480px;
-padding-top: 35px;
-margin: 0 auto;
-}
-
-h3{
-font-size: 28px;
-font-weight: 600;
-color: #ffffff;
-}
-
-.information p{
-font-size: 16px;
-color: #000;
-display: block;
 }
 
 .form{
@@ -46,20 +28,17 @@ display: block;
 }
 
 .field{
-width: 448px;
-border: solid black 1px;
-font-family: 'Arial', sans-serif;
-font-size: 20px;
-color: #000;
-float: left;
-padding: 15px;
-margin-bottom: 15px;
+	width: 448px;
+	border: solid black 1px;
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	color: #000;
+	float: left;
+	padding: 15px;
+	margin-bottom: 15px;
 }
 
 @media only screen and (max-device-width: 420px)  {
-	.information{
-		width: 100%;
-	}
 	.form{
 		width: 100%;
 	}
@@ -72,35 +51,34 @@ margin-bottom: 15px;
 }
 
 .submit{
-padding: 3px 10px;
-margin-left: -60px;
-margin-top: 12px;
-background: #ffffff;
-border: none;
-float: left;
-font-family: 'Lato', sans-serif;
-font-size: 14px;
-font-weight: bold;
-cursor: pointer;
+	padding: 3px 10px;
+	margin-left: -60px;
+	margin-top: 12px;
+	background: #ffffff;
+	border: none;
+	float: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
 }
 
-
 .submit:hover{
-background: #eeeeee;
+	background: #eeeeee;
 }
 
 .error {
-  color: #FE7070;
-  font-weight: 700;
-  font-size: 25px;
+	color: #FE7070;
+	font-weight: 700;
+	font-size: 25px;
 }
 
 a {
-  color: #92BCF2;
-  font-weight: 700;
+	color: #92BCF2;
+	font-weight: 700;
 }
 
 a:visited,
 a:hover {
-  color: #7EB6FF;
+	color: #7EB6FF;
 }
