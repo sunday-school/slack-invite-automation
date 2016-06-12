@@ -38,34 +38,14 @@ float: left;
 }
 
 
-h1{
-font-family: 'Arial', sans-serif;
-color: #000;
-text-align: center;
-font-size: 50px;
-font-weight: 300;
-margin: 0 0 10px 0;
-}
-
-
-h1 strong{
-font-size: 38px;
-font-weight: 700;
-}
-
-h2{
+h1, h2 {
+	font-family: 'Arial', sans-serif;
+	color: #000;
 	text-align: center;
-	font-weight: 300;
 	font-size: 20px;
-		color: #ffffff;
-
+	font-weight: 300;
+	margin: 0 0 10px 0;
 }
-
-h2 strong{
-	font-weight: 700;
-	font-style: italic;
-}
-
 
 .information{
 width: 480px;
@@ -93,7 +73,7 @@ display: block;
 
 .field{
 width: 448px;
-border: none;
+border: black 1px;
 font-family: 'Arial', sans-serif;
 font-size: 16px;
 color: #000;
