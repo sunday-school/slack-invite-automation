@@ -4,12 +4,11 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 
 
 html,body{
-	height: 100%;
-	width: 100%;
-	margin:0;
-	padding:0;
-	background-color: white;
-	font-family: 'Arial', sans-serif;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font: 1.5em/1em Arial, sans-serif;
 }
 
 h1, h2 {
