@@ -4,8 +4,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 
 
 html,body{
-        height: 100%;
-        margin: 0;
+	margin: 1em 0 0 1em;
         padding: 0;
         width: 100%;
         font: 1.5em/1em Arial, sans-serif;
@@ -47,9 +46,9 @@ h1, h2 {
 }
 
 .submit{
-	padding: 3px 10px;
-	margin-left: -60px;
-	margin-top: 12px;
+	padding: 6px 10px;
+	margin-left: -100px;
+	margin-top: 13px;
 	background: #ffffff;
 	border: none;
 	float: left;
