@@ -52,7 +52,6 @@ h1, h2 {
 	background: #ffffff;
 	border: none;
 	float: left;
-	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	font-weight: bold;
 	cursor: pointer;
@@ -63,17 +62,15 @@ h1, h2 {
 }
 
 .error {
-	color: #FE7070;
-	font-weight: 700;
-	font-size: 25px;
+	color: #ff6600;
+	font-size: 20px;
 }
 
 a {
-	color: #92BCF2;
-	font-weight: 700;
+	color: #0066ff;
 }
 
 a:visited,
 a:hover {
-	color: #7EB6FF;
+	color: #0066ff;
 }
