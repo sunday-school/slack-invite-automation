@@ -1,6 +1,6 @@
 {
-	"HEADER": "Join our slack. Type n' send your email below to receive an invite.",
-	"ENTER_EMAIL": "Your email address goes here",
+	"HEADER": "Join our slack.",
+	"ENTER_EMAIL": "Enter your email here",
 	"ENTER_TOKEN": "Enter the invite token you were given",
 	"TITLE": "Join %s on Slack"
 }
